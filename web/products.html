@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Products</title>
+</head>
+<body>
+    <h2>Products</h2>
+    <ul>
+        <li>Dog Toy - Plush Squeaky ($15.99) <form action="CartServlet" method="POST">
+            <input type="hidden" name="product" value="Dog Toy">
+            <button type="submit">Add to Cart</button>
+        </form></li>
+        <li>Cat Bed - Cozy Design ($25.50) <form action="CartServlet" method="POST">
+            <input type="hidden" name="product" value="Cat Bed">
+            <button type="submit">Add to Cart</button>
+        </form></li>
+        <!-- Add more products as necessary -->
+    </ul>
+    <a href="CartServlet">View Cart</a>
+</body>
+</html>
