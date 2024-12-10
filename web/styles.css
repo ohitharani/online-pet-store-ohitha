@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin: 10px 0;
+}
