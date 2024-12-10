@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online Pet Store - Login</title>
+</head>
+<body>
+    <h2>Welcome to the Online Pet Store</h2>
+    <form action="UserServlet" method="POST">
+        <input type="hidden" name="action" value="login">
+        <label>Username: </label><input type="text" name="username" required><br>
+        <label>Password: </label><input type="password" name="password" required><br>
+        <button type="submit">Login</button>
+    </form>
+    <h3>Don't have an account? Register below:</h3>
+    <form action="UserServlet" method="POST">
+        <input type="hidden" name="action" value="register">
+        <label>Username: </label><input type="text" name="username" required><br>
+        <label>Password: </label><input type="password" name="password" required><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
